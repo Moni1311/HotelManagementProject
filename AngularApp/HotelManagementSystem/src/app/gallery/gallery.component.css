@@ -1,0 +1,40 @@
+.sbroom{
+margin-left:70px;
+margin-right:40px;
+margin-bottom: 40px;
+margin-top: 40px;
+}
+.images{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 14, 14);
+    text-decoration: underline;
+}
+.dbroom{
+    margin-left:70px;
+    margin-right:40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    }
+    .fig{
+        text-align: center;
+       
+      }
+      .fig-fig{
+        text-align: center;
+        background-color: rgb(255, 176, 7);
+    }
+      .gall{
+          background-color:antiquewhite
+      }
+      .service-title{
+        text-align: center;
+        font-size: 50px;
+        background-color: antiquewhite;
+      }
+
+     span{
+       color: chocolate;
+     }
+    .images h2 span{
+      color: chocolate;
+    }

@@ -1,0 +1,38 @@
+.text-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    text-align: center;
+        margin-top: 10px; 
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(108, 0, 0);
+        font-size: 50px;
+       }
+       .fig{
+         text-align: center;
+         background-color: rgb(255, 243, 214);
+        
+       }
+       .fig-fig{
+        text-align: center;
+        background-color: rgb(255, 243, 214);
+      }
+       .context{
+        font-size: 18px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-weight: 200;
+        font-style: bold;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+    .context .text{
+       text-decoration: underline;
+       color:chocolate;
+    }
+    h1 span{
+color: chocolate;
+    }

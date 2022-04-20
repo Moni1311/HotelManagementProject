@@ -1,0 +1,16 @@
+
+    .back{
+      background-image: url("https://images5.alphacoders.com/372/372805.jpg");
+    }
+    .service-title{
+
+      text-align: center;
+      font-size: 50px;
+      background-color: antiquewhite;
+    }
+    .section-title span{
+      color: chocolate;
+  }
+  .heading{
+text-align: center;
+  }

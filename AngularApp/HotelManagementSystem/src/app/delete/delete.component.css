@@ -1,0 +1,17 @@
+.heading{
+   text-align: center;
+   text-decoration: underline;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color:rgb(154, 0, 31);
+}
+.fig{
+   text-align: center;
+   background-color:  rgb(255, 176, 7);
+ }
+ .body{
+    background-image: url("https://images5.alphacoders.com/372/372805.jpg");
+ }
+ .btn{
+ margin-left: 15px;
+ }
+    

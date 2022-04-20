@@ -1,0 +1,43 @@
+<div class="fig" style="text-align: center;background-color: rgb(255, 176, 7);">
+  <img src="https://tse4.mm.bing.net/th?id=OIP.91iLFGY8WjeF7pic8yj5bQHaEF&pid=Api&P=0&w=291&h=160 ">
+</div>
+<div class="back">
+<h3 class="heading"> Book Room  </h3><br>
+<div class="col-md-6 offset-md-3" align="center">
+            <form #insertform="ngForm" (ngSubmit)="insertdata(insertform)">
+                <div  class="form-group">
+                <label>No of Room: </label>
+                <input type="text" #id (ngModel)="id" name="id" class="form-control">
+                </div>
+                
+                <div  class="form-group">
+                <label>Room Type: </label>
+                <input type="text" #roomtype (ngModel)="roomtype" name="roomtype" class="form-control">
+                </div>
+    
+                <div  class="form-group">
+                <label>Contact: </label>
+                <input type="text" #contact (ngModel)="contact" name="contact" class="form-control">
+                </div>
+    
+                <div  class="form-group">
+                <label> Name : </label>
+                <input type="text"  #cname (ngModel)="cname" name="cname" class="form-control">
+                </div>
+
+                <div  class="form-group">
+                <label>Email ID : </label>
+                <input type="text" #email (ngModel)="email" name="email" class="form-control">
+                </div>
+          
+                <button type="submit" value="insertdata"  class="btn btn-success">Submit</button><br><br>
+                <a href="/services-component" class = "btn btn-info"> Back </a><br><br>
+                
+            </form>
+          </div>
+          </div>
+        
+          
+      
+    
+  

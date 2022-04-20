@@ -1,0 +1,22 @@
+<div class="fig">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.91iLFGY8WjeF7pic8yj5bQHaEF&pid=Api&P=0&w=291&h=160 ">
+</div>
+<div class="body"><br>
+<h2 class="heading"> Cancel Booking</h2><br><br>
+<div align="center">
+    <form #deleteform="ngForm" (ngSubmit)="deletedata(deleteform)">
+        <div  class="form-group">
+            <label>Name </label><br>
+            <input type="text" #name (ngModel)="name" name="name" class="form-class"></div>
+            <br>
+            <div  class="form-group">
+                <label>Contact </label><br>
+                <input type="text" #contact (ngModel)="contact" name="contact" class="form-class">
+                </div><br>
+        <button type="submit" value="delete" class = "btn btn-danger">Submit</button>
+        <a href="/services-component" class = "btn btn-info"> Back </a>
+    </form>
+</div><br><br><br><br><br><br><br>
+    </div>
+
+ 

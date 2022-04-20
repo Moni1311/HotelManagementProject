@@ -1,0 +1,32 @@
+<div class="fig">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.91iLFGY8WjeF7pic8yj5bQHaEF&pid=Api&P=0&w=291&h=160 ">
+  </div>
+  <div class="body">
+<div align="center" class="container">
+    <h3 align="center" class="heading">Booked Room Status</h3><br>
+    <table border="1" class = "table table-striped" >
+        <thead>
+            <tr>
+                <th>Name  </th>
+                <th>Room Type </th>
+                <th>No.of.Room</th>
+                <th>Contact</th>
+                <th>EmailID</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor = "let hotel of hoteldetails">
+                <td>{{hotel.cname}}</td>
+                <td>{{hotel.roomtype}}</td>
+                <td>{{hotel.id}}</td>
+                <td>{{hotel.contact}}</td>
+                <td>{{hotel.email}}</td>
+             </tr>
+        </tbody>
+    </table>
+    <br>
+    <a href="/services-component" class = "btn btn-info"> Back </a>
+ </div>
+ <br><br><br><br><br><br><br><br><br><br><br><br><br>
+ </div>
+ 
